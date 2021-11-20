@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(kt.jpg) no-repeat ;
+    background-size: cover;
+  }
+  .Apoints {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    letter-spacing: 0.5vw;
+
+  }
+  .AR_navbar{
+    display: flex;
+    justify-content: space-between;
+  font-weight: 600;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 2vw;
+
+  }
+  .AR_navbar span{
+      cursor: pointer;
+  }
+
+  
+  .box{
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+        
+    
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .container{
+     
+      display: flex;
+      align-items: center;
+      height: 300px;
+    
+      justify-content: center;
+      margin-bottom: 30px;
+      width: 80%;
+      margin-left: 10%;
+  }
+  .ct{
+    width: 200px;
+    margin-right: 5%;
+    background: rgba(202, 12, 12, 0.342);
+    padding: 40px;
+    text-align: center;
+    
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+
+  }
+ .headran{
+     color: aliceblue;
+    
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin: 2% 10% 0% 10%;
+  font-weight: 900;
+  font-size: 2vw;
+  background: rgba(0, 128, 128, 0.507);
+     height: 10vh;
+ }
+
+  .box-img2{
+    
+    
+   
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+.rank{
+    color: greenyellow;
+}
+
+.AR_ku{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.photo-wrap{
+  display: flex;
+  align-items: center ;
+}
+.addphoto{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.7vw;
+
+  
+}
+
+.Sbtns {
+  display: flex;
+  flex-direction: column;
+
+}
+.Spoints{
+  
+  pointer-events: none;
+}
+.instruct{
+  width: 20vw;
+  float: right;
+}
+.parentdiv {
+  display: flex;
+  flex-direction: column;
+}
